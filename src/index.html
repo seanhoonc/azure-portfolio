@@ -1,17 +1,325 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sean's Azure cloud and business analysis learning portfolio."
+    />
+    <title>Sean | Azure Cloud &amp; Business Analysis Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
-</head>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Sean's portfolio home">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span>Sean / Azure Lab</span>
+        </a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#governance">Governance</a>
+          <a href="#delivery">Delivery</a>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+    <main id="main-content">
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Azure · AZ-104 · Business Analysis</p>
+            <h1>Turning business needs into governed cloud solutions.</h1>
+            <p class="hero-copy">
+              I am building practical Azure projects that connect stakeholder
+              decisions, operational data and secure automation—while keeping
+              cost, ownership and supportability visible from day one.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">Explore the roadmap</a>
+              <a class="button button-secondary" href="#governance">View the controls</a>
+            </div>
+            <ul class="principles" aria-label="Portfolio principles">
+              <li>Free-first architecture</li>
+              <li>Australia East preferred</li>
+              <li>Automated delivery</li>
+            </ul>
+          </div>
 
+          <aside class="status-card" aria-labelledby="status-title">
+            <div class="status-heading">
+              <div>
+                <p class="card-label">Current status</p>
+                <h2 id="status-title">Portfolio online</h2>
+              </div>
+              <span class="live-dot">Live</span>
+            </div>
+            <dl class="metrics">
+              <div>
+                <dt>Foundation</dt>
+                <dd>Lab 0 complete</dd>
+              </div>
+              <div>
+                <dt>Delivery</dt>
+                <dd>GitHub Actions</dd>
+              </div>
+              <div>
+                <dt>Hosting</dt>
+                <dd>Static Web Apps Free</dd>
+              </div>
+              <div>
+                <dt>Azure estimate</dt>
+                <dd>$0 within quota</dd>
+              </div>
+            </dl>
+            <p class="status-note">
+              Budget alerts provide visibility; they do not automatically stop Azure spending.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="approach-title">
+        <div class="container intro-grid">
+          <div>
+            <p class="eyebrow">How I work</p>
+            <h2 id="approach-title">Business outcomes with operational guardrails</h2>
+          </div>
+          <p class="section-lead">
+            Each lab starts with a real business problem, maps the stakeholders and
+            requirements, then implements a small Azure solution with measurable
+            acceptance criteria, cost monitoring and a documented cleanup path.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Project roadmap</p>
+              <h2 id="projects-title">Evidence, not just certificates</h2>
+            </div>
+            <p>Small projects designed to demonstrate architecture decisions and service operations.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-card-featured">
+              <div class="project-topline">
+                <span class="project-number">01</span>
+                <span class="pill pill-complete">Live</span>
+              </div>
+              <h3>Azure Learning Portfolio</h3>
+              <p>
+                A globally served portfolio with source control and automated deployment.
+              </p>
+              <ul class="service-list">
+                <li>Static Web Apps</li>
+                <li>GitHub Actions</li>
+                <li>Cost Management</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span class="project-number">02</span>
+                <span class="pill">Planned</span>
+              </div>
+              <h3>Stakeholder Decision Log</h3>
+              <p>
+                A serverless API that records decisions, owners, due dates and change history.
+              </p>
+              <ul class="service-list">
+                <li>Functions</li>
+                <li>Storage</li>
+                <li>Event Grid</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span class="project-number">03</span>
+                <span class="pill">Planned</span>
+              </div>
+              <h3>Requirement Tracker</h3>
+              <p>
+                One business domain model implemented across relational and NoSQL data stores.
+              </p>
+              <ul class="service-list">
+                <li>Azure SQL</li>
+                <li>Cosmos DB</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span class="project-number">05</span>
+                <span class="pill">Planned</span>
+              </div>
+              <h3>Business Operations Dashboard</h3>
+              <p>
+                A containerized dashboard that scales to zero when no users are active.
+              </p>
+              <ul class="service-list">
+                <li>Container Apps</li>
+                <li>Container Registry</li>
+                <li>Azure Monitor</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span class="project-number">08</span>
+                <span class="pill">Planned</span>
+              </div>
+              <h3>Automated Data Pipeline</h3>
+              <p>
+                A repeatable CSV ingestion flow with validation, monitoring and SQL reporting.
+              </p>
+              <ul class="service-list">
+                <li>Data Factory</li>
+                <li>Blob Storage</li>
+                <li>Azure SQL</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span class="project-number">09</span>
+                <span class="pill">Planned</span>
+              </div>
+              <h3>Document Search System</h3>
+              <p>
+                Searchable requirements and contracts with traceable source documents.
+              </p>
+              <ul class="service-list">
+                <li>Blob Storage</li>
+                <li>Document Intelligence</li>
+                <li>AI Search</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="governance" aria-labelledby="governance-title">
+        <div class="container governance-grid">
+          <div>
+            <p class="eyebrow">Cloud governance</p>
+            <h2 id="governance-title">Every experiment has an owner and an exit plan.</h2>
+            <p class="section-lead">
+              The lab environment uses simple controls that are easy to explain to
+              stakeholders and useful to an operations team.
+            </p>
+          </div>
+
+          <div class="control-list">
+            <article>
+              <span aria-hidden="true">01</span>
+              <div>
+                <h3>Isolated resource groups</h3>
+                <p>One resource group per lab creates a clear cost and deletion boundary.</p>
+              </div>
+            </article>
+            <article>
+              <span aria-hidden="true">02</span>
+              <div>
+                <h3>Required metadata</h3>
+                <p>Owner, Lab, Purpose and Expires tags make accountability visible.</p>
+              </div>
+            </article>
+            <article>
+              <span aria-hidden="true">03</span>
+              <div>
+                <h3>Cost feedback</h3>
+                <p>Subscription and resource-group budgets surface unexpected spend early.</p>
+              </div>
+            </article>
+            <article>
+              <span aria-hidden="true">04</span>
+              <div>
+                <h3>Lifecycle verification</h3>
+                <p>Resources are deleted after validation and the cost view is checked again.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="delivery" aria-labelledby="delivery-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow eyebrow-light">Delivery workflow</p>
+              <h2 id="delivery-title">A visible path from change to customer</h2>
+            </div>
+            <p>Every commit is traceable and automatically deployed.</p>
+          </div>
+
+          <ol class="delivery-flow">
+            <li>
+              <span>1</span>
+              <div>
+                <h3>Define</h3>
+                <p>Capture the user need and acceptance criteria.</p>
+              </div>
+            </li>
+            <li>
+              <span>2</span>
+              <div>
+                <h3>Commit</h3>
+                <p>Version the change in the GitHub repository.</p>
+              </div>
+            </li>
+            <li>
+              <span>3</span>
+              <div>
+                <h3>Build</h3>
+                <p>GitHub Actions validates and packages the site.</p>
+              </div>
+            </li>
+            <li>
+              <span>4</span>
+              <div>
+                <h3>Deploy</h3>
+                <p>Azure Static Web Apps publishes the approved version.</p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="decision-record">
+            <div>
+              <p class="card-label">Decision record / DR-001</p>
+              <h3>Use a static, free-first portfolio for the initial release.</h3>
+            </div>
+            <dl>
+              <div>
+                <dt>Driver</dt>
+                <dd>Fast delivery with minimal operational overhead</dd>
+              </div>
+              <div>
+                <dt>Trade-off</dt>
+                <dd>No server-side functionality in the first release</dd>
+              </div>
+              <div>
+                <dt>Next review</dt>
+                <dd>When the stakeholder decision API is introduced</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p><strong>Sean's Azure Learning Portfolio</strong></p>
+        <p>Built with semantic HTML, CSS and Azure Static Web Apps.</p>
+      </div>
+    </footer>
+  </body>
 </html>
